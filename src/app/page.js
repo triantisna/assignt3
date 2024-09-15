@@ -21,7 +21,7 @@ export default async function Page() {
     <body>
       <div className="m-20">
         <QuotesCreate />
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5">
           {data?.map((db) => {
             return (
               <QuotesCard
