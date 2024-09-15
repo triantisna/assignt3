@@ -22,7 +22,7 @@ export default async function Page() {
       <div className="m-20">
         <QuotesCreate />
         <div className="grid grid-cols-3 gap-5">
-          {data.map((db) => {
+          {data?.map((db) => {
             return (
               <QuotesCard
                 key={db._id}
