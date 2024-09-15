@@ -18,7 +18,7 @@ export const QuotesCard = ({ id, name, quotes }) => {
   }
 
   return (
-    <div className="w-[400px] h-fit border rounded-lg p-4 bg-gray-800">
+    <div className="responsive-div border rounded-lg p-4 bg-gray-800">
       <h3 className="font-bold mb-3 text-slate-200">{name}</h3>
       <p className="text-sm text-slate-400 font-medium">{quotes}</p>
       <div className="flex justify-between p-1">

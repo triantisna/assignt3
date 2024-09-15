@@ -27,4 +27,18 @@
   .btn-danger {
     @apply bg-rose-500 text-rose-100;
   }
+
+  .responsive-div {
+    @apply w-[400px] h-auto border rounded-lg p-4 bg-gray-800;
+  }
+  @media (max-width: 1024px) {
+    .responsive-div {
+      @apply w-[300px];
+    }
+  }
+  @media (max-width: 640px) {
+    .responsive-div {
+      @apply w-[240px];
+    }
+  }
 }
